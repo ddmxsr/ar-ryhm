@@ -1,0 +1,192 @@
+.timeline{
+    width: 100%;
+    background-color: #fefefe;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+
+.timeline .timeline-content{
+    min-width: 1200px;
+    padding-bottom:170px;
+    padding-top:60px;
+    position:relative
+}
+
+.timeline .timeline-year{
+    -webkit-box-align:start;
+    -ms-flex-align:start;
+    align-items:flex-start;
+    color:black;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    margin-bottom:28px
+}
+
+.timeline .timeline-year .timeline-year-divider{
+    background-color:rgba(63, 76, 100, 60);
+    height:2px;
+    width:400px
+}
+
+.timeline .timeline-year .timeline-year-year{
+    padding-left:3px
+}
+
+.timeline .timeline-item {
+    width:100%;
+    margin-bottom:40px;
+    display: flex;
+    flex-direction: row;
+    animation-name: appear;
+    animation-duration: 2s;
+}
+
+.align-end {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.timeline-year-year {
+    font-size: 48px;
+}
+
+*
+{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h5
+{
+  margin:0px;
+  font-size:1.4em;
+  font-weight:700;
+}
+
+p
+{
+  font-size:12px;
+}
+
+.center
+{
+  height:100vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End Non-Essential  */
+
+.property-card
+{
+  height:18em;
+  width:60em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
+
+/* Top Half of card, image. */
+
+.property-image
+{
+  height:6em;
+  width:60em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  overflow: hidden;
+}
+
+.property-image img {
+    position: Absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    width: 60em;
+    height: auto;
+}
+
+/* Bottom Card Section */
+
+.property-description
+{
+  background-color: #FAFAFC;
+  height:12em;
+  width:60em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+/* Social Icons */
+
+.property-social-icons
+{
+  width:1em;
+  height:1em;
+  background-color:black;
+  position:absolute;
+  bottom:1em;
+  left:1em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* Property Cards Hover States */
+
+.property-card:hover .property-description
+{
+  height:0em;
+  padding:0px 1em;
+}
+.property-card:hover .property-image
+{
+  height:18em;
+}
+
+.property-card:hover .property-social-icons
+{
+  background-color:white;
+}
+
+.property-card:hover .property-social-icons:hover
+{
+  background-color:blue;
+  cursor:pointer;
+}
