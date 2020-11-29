@@ -1,0 +1,69 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.content .vertical-allignment-center {
+    height: 100vh;
+    width: 1200px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+iframe.video {
+    height: 1231px; 
+    width: 1692px; 
+    margin-top: -147px; 
+    margin-bottom: -200px;
+}
+
+div.filter {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.60), rgba(34,34,34,0.70));
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.60), rgba(34,34,34,0.70));
+}
+
+img.logo {
+    max-width: 350px; 
+    width: 100%; 
+    height: auto;
+}
+
+h1.title {
+    color: white;
+}
+
+h2 {
+    size: 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
