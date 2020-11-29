@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="PageStyles.css">
+    <script src="PageScript.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises</title>
+</head>
+
+<body>
+    <!-- Siia läheb see nav asi-->
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Warm_up')">Warm up</button>
+        <button class="tablinks" onclick="openTab(event, 'Parkour_Moves')">Parkour Moves</button>
+        <button class="tablinks" onclick="openTab(event, 'Strength_Exercises')">Strength exercises</button>
+      </div>
+      
+      <div id="Warm_up" class="tabcontent">
+        <div class="row">
+          <div class="column">
+            <iframe class="video" src="https://www.youtube.com/embed/qGSc-EUlyrQ"></iframe>
+          </div>
+          <div class="column">
+            <p class="warm_up">It's important to warm up and stretch before you start a parkour session. It helps to avoid injuries.
+              When warming up stay away from static stretches and try to do different small dynamic exercises, 
+              like jogging and small jumps.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img class="yoga" src="yoga_picture.jpg" alt="A yoga pose">
+          </div>
+          <div class="column">
+            <p class="warm_up">Try out quadrupedal movement (moving on all fours, think Spiderman-climbing-up-a-wall thoughts). 
+              In parkour you have to warm up different joints, so make sure to work on your wrists and ankles.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div id="Parkour_Moves" class="tabcontent">
+        <p class="movement">3 basic groups of movements:</p> 
+        <p class="movement" >Vaults</p>
+        <div class="row">
+          <div class="column">
+            <iframe class="video" src="https://www.youtube.com/embed/OZFnbIOmmIY"></iframe>
+          </div>
+          <div class="column">
+            <p class="title">Safety vault</p>
+            <p>The most basic vault. It is often recommended as the first vault to learn,
+              because it is the easiest. 
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="Lazyvault.gif" alt="A gif of a lazy vault">
+          </div>
+          <div class="column">
+            <p class="title">Lazy vault</p>
+            <p>The lazy vault is also simple because it doesn't require great speed.
+              It is used when moving next to a vaultable object or when appproaching 
+              an object sideways.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="Speed_Vault.gif" alt="A gif of a speed vault">
+          </div>
+          <div class="column">
+            <p class="title">Speed vault</p>
+            <p>The speed vault is used to quickly pass obstacles while maintaining your speed.
+              Approach the obstacle while running, and perform a safety vault without
+              putting your leg on the obstacle.
+            </p>
+          </div>
+        </div>
+        <p class="movement" >Landings</p>
+        <div class="row">
+          <div class="column">
+            <img src="precision_jump.jpg" alt="Precision leap">
+          </div>
+          <div class="column">
+            <p class="title">Precision jump/leap</p>
+            <p>A precision jump is used to jump from one stationary spot to another,
+              taking care to cancel out extra momentum on the landing.
+            </p>
+            <p>A precision leap is the same, but with a running start and extra
+              momentum behind the jump itself.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img class= "roll" src="Roll.jpg" alt="A leap and a roll">
+          </div>
+          <div class="column">
+            <p class="title">Roll</p>
+            <p>Used in landing from hights and after fast tricks, the shoulder roll
+              dissipates the impacts of landing.
+            </p>
+            <p>Unlike the gymnastics roll, the shoulder roll starts from one shoulder
+              across to the opposite hip.
+            </p>
+          </div>
+        </div>
+        <p class="movement" > Wall techniques</p>
+        <div class="row">
+          <div class="column">
+            <iframe class="video" src="https://www.youtube.com/embed/-kL1CvQHywU"></iframe>
+          </div>
+          <div class="column">
+            <p class="title">Wall run/Climb up</p>
+            <p>The combination of these two techniques is used to get over taller obstacles
+              like walls. The first part involves the wall run, which helps you reach the edge
+              of the wall, and the second part is used to actually get over.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="Cat_Leap.gif" alt="A gif of a cat leap">
+          </div>
+          <div class="column">
+            <p class="title">Cat leap</p>
+            <p>This is a technique used to land on a vertical object, like a wall,
+              ledge or fence. From it you can transition into a climb up.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div id="Strength_Exercises" class="tabcontent">
+        <div id="warmup_background">
+          <div class="row">
+              <div class="column">
+                  <img src="Dead_hang.jpg" alt="Man hanging from a bar">
+            </div>
+            <div class="column">
+            <p class="title">Upper body strength</p>
+            <p >To build the upper body strength, and train forearms, hands and fingers, hanging off a bar can be a sound starting point</p>
+              </div>
+          </div>
+          <div class="row">
+              <div class="column">
+                <iframe class="video" src="https://www.youtube.com/embed/MjXUd0utdoI"></iframe>
+              </div>
+              <div class="column">
+                <p class="title">Jumping power</p>
+                <p>A good traceur knows their jumping power and can act accordingly. 
+                  Getting higher and longer jumps help with tons of obstacles.</p>
+              </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <iframe class="video" src="https://www.youtube.com/embed/hYR_hx_8Dds"></iframe>
+            </div>
+            <div class="column">
+            <p class="title">Quadrupedal movement</p>
+            <p>A lot of parkour moves are derived from so called "monkey movements". 
+              Moving on all fours, and this can also be a way to train yourself. Easier
+              movements are also good to help warm up.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+</body>
+</html>
