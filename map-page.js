@@ -87,7 +87,7 @@ var json = JSON.parse(`
 function initMap() {
     var mapOptions = {
         center: new google.maps.LatLng(58.378025, 26.728493),
-        zoom: 13,
+        zoom: 14,
     };
 
     infowindow = new google.maps.InfoWindow();
