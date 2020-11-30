@@ -127,7 +127,7 @@ function loadMarkers() {
             title: data.properties.name
         });
 
-        bindInfoWindow(marker, data.properties.description + "</br>" + "<img height = 300px width = auto src =" + data.properties.imageUrl + ">");
+        bindInfoWindow(marker, '<b style = "font-size:25px">'+ data.properties.name +"</b></br>" + data.properties.description + "</br>" + "<img height = 350px width = auto src =" + data.properties.imageUrl +">");
         marker.setMap(map);
     }
 }
