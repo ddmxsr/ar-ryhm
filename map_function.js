@@ -89,7 +89,7 @@ function initMap() {
             title: data.properties.name
         });
 
-		bindInfoWindow(marker, map, infowindow, data.properties.description);
+		bindInfoWindow(marker, map, infowindow, data.properties.description + "</br>" + "<img height = 300px width = auto src =" + data.properties.imageUrl +">");
 		marker.setMap(map);
     }
 
