@@ -1,3 +1,4 @@
+
 .timeline{
     width: 100%;
     background-color: #fefefe;
@@ -39,10 +40,6 @@
     width:400px
 }
 
-.timeline .timeline-year .timeline-year-year{
-    padding-left:3px
-}
-
 .timeline .timeline-item {
     width:100%;
     margin-bottom:40px;
@@ -61,67 +58,53 @@
     font-size: 48px;
 }
 
-*
-{
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+
+/*
+Kasutatud css kaardi ülesehituse jaoks
+https://codepen.io/markelrayes/pen/ZEGVBZm
+*/
 
 h5
 {
-  margin:0px;
-  font-size:1.4em;
-  font-weight:700;
+    margin:0px;
+    font-size:32px;
+    font-weight:700;
 }
 
 p
 {
-  font-size:12px;
+    font-size:24px;
 }
-
-.center
-{
-  height:100vh;
-  width:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* End Non-Essential  */
 
 .property-card
 {
-  height:18em;
-  width:60em;
-  display:-webkit-box;
-  display:-ms-flexbox;
-  display:flex;
-  -webkit-box-orient:vertical;
-  -webkit-box-direction:normal;
-  -ms-flex-direction:column;
-  flex-direction:column;
-  position:relative;
-  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  border-radius:16px;
-  overflow:hidden;
-  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
-  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    height:25em;
+    width:60em;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    position:relative;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius:16px;
+    overflow:hidden;
+    -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
 }
-/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
-
-/* Top Half of card, image. */
 
 .property-image
 {
-  height:6em;
-  width:60em;
-  padding:1em 2em;
-  position:Absolute;
-  top:0px;
-  overflow: hidden;
+    height:6em;
+    width:60em;
+    padding:1em 2em;
+    position:Absolute;
+    top:0px;
+    overflow: hidden;
 }
 
 .property-image img {
@@ -137,56 +120,31 @@ p
     height: auto;
 }
 
-/* Bottom Card Section */
-
 .property-description
 {
-  background-color: #FAFAFC;
-  height:12em;
-  width:60em;
-  position:absolute;
-  bottom:0em;
-  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  padding: 0.5em 1em;
-  text-align:center;
+    background-color: #FAFAFC;
+    height:18em;
+    width:auto;
+    position:absolute;
+    bottom:0em;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    text-align:center;
+    padding: 1.2em;
 }
-
-/* Social Icons */
-
-.property-social-icons
-{
-  width:1em;
-  height:1em;
-  background-color:black;
-  position:absolute;
-  bottom:1em;
-  left:1em;
-  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-/* Property Cards Hover States */
 
 .property-card:hover .property-description
 {
-  height:0em;
-  padding:0px 1em;
+    height:0em;
+    padding:0px 1em;
 }
 .property-card:hover .property-image
 {
-  height:18em;
+    height:25em;
 }
 
-.property-card:hover .property-social-icons
+.property-card:hover
 {
-  background-color:white;
-}
-
-.property-card:hover .property-social-icons:hover
-{
-  background-color:blue;
-  cursor:pointer;
+    background-color:white;
 }
