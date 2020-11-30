@@ -1,0 +1,85 @@
+body {
+    background-color: #fefefe;
+    font-family: roboto;
+    color: #000000;
+    margin: 0;
+}
+#warmup_background {
+    background: url("parkour bkg 1.jpg");
+    background-size: cover;
+}
+* {
+    box-sizing: border-box;
+}
+button {
+    background-color: #3F4C64;
+    font-family: roboto;
+    color: #d3d3d3;
+}
+img {
+    float: left;
+    margin-right: 10%;
+    margin-left: 20%;
+    margin-top: 10%;
+    width:300px;
+    height:240px;
+}
+img.yoga{
+    float:left;
+    margin-right: 10%;
+    margin-left: 20%;
+    margin-top: 10%;
+    width:400px;
+    height:204px;
+}
+img.roll {
+    float: left;
+    margin-right: 10%;
+    margin-left: 20%;
+    margin-top: 10%;
+    width:400px;
+    height:240px;
+}
+iframe.video {
+    width: 448px;
+    height: 252px;
+    float: left;
+    margin-right: 10%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+p {
+    text-align: center;
+    margin-right: 25%;
+    margin-top: 0%;
+    font-size:18px
+}
+p.title {
+    text-align: center;
+    margin-right: 25%;
+    margin-top: 15%;
+    font-size:22px
+}
+p.warm_up {
+    text-align: center;
+    margin-right: 25%;
+    margin-top: 15%;
+    font-size:18px
+}
+p.movement {
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size:26px
+}
+
+.column {
+    float:left;
+    padding: 0px;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
