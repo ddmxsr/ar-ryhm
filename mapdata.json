@@ -16,7 +16,7 @@
          }
       },
       {
-         "type": "Features",
+         "type": "Feature",
          "geometry": {
             "type": "Point",
             "coordinates": [
@@ -31,7 +31,7 @@
          }
       },
       {
-         "type": "Features",
+         "type": "Feature",
          "geometry": {
             "type": "Point",
             "coordinates": [
@@ -46,7 +46,7 @@
          }
       },
       {
-         "type": "Features",
+         "type": "Feature",
          "geometry": {
             "type": "Point",
             "coordinates": [
@@ -61,7 +61,7 @@
          }
       },
       {
-         "type": "Features",
+         "type": "Feature",
          "geometry": {
             "type": "Point",
             "coordinates": [
