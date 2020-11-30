@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>The map page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./map_function.js"></script>
+    <script 
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-KCVmwlRqkolHlISg8EQBeKMhnatfTlo&callback=initMap&libraries=&v=weekly"
+      defer
+      async
+      type="text/javascript">
+    </script>
+    <style type="text/css">
+      map{
+        height: 100%;
+        width: 100%;
+        overflow: visible;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        border: 2px solid #3872ac;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="map"></div>
+  </body>
+</html>
