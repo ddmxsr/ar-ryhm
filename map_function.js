@@ -86,7 +86,7 @@ function initMap() {
 		var marker = new google.maps.Marker({
 			position: latLng,
 			map: map,
-			title: data.properties.name
+            title: data.properties.name
         });
 
 		bindInfoWindow(marker, map, infowindow, data.properties.description);
@@ -99,26 +99,4 @@ function initMap() {
             infowindow.open(map, marker);
         });
     }
-
-
-//     $.each(json, function (key, data) {
-//         var icon = data.properties.imageUrl;
-
-//         var latLng = new google.maps.LatLng(data.geometry.coordinates[0], data.geometry.coordinates[1]);
-
-//         var marker = new google.maps.Marker({
-//             position: latLng,
-//             map: map,
-//             icon: icon,
-//             title: data.title
-//         });
-
-//         var details = data.properties.description;
-
-//         bindInfoWindow(marker, map, infowindow, details);
-
-//     });
-//     google.maps.event.addDomListener(window, 'load', initMap);
-
-// }
 }
